@@ -1,0 +1,54 @@
+/* Dezi Flight Signup UI */
+
+.signup-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  font-family: "Segoe UI", sans-serif;
+}
+
+.signup-card {
+  background: #ffffff;
+  width: 380px;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+}
+
+.signup-card h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #2c5364;
+}
+
+.signup-card input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 12px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+.signup-card button {
+  width: 100%;
+  padding: 12px;
+  background: #2c5364;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.signup-card button:hover {
+  background: #203a43;
+}
+
+.signup-footer {
+  margin-top: 12px;
+  text-align: center;
+  font-size: 14px;
+}
